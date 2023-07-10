@@ -5,6 +5,7 @@ console.log(zakat);
 
 // ِArray Task 1
 // Correct the syntax error
+
 let arr1=[1 , 7 , 9 , 45];
 console.log(arr1);
 
@@ -62,7 +63,7 @@ Ex: lastOfArray([1,4,5]) => 5
 Ex: lastOfArray(["t","u","g","x"]) => "x"
 */
 
-let last1=cars[3];
+let last1=cars[cars.length-1];
 console.log(last1);
 
 /*
