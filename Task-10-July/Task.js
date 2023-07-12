@@ -10,8 +10,7 @@ if(parseInt(num1) > parseInt(num2))
   { 
   console.log("The larger of "+ num1+ " and "+ num2+ " is "+ num1+ ".");
   }   
-else
-  if(parseInt(num2) > parseInt(num1)) 
+else if(parseInt(num2) > parseInt(num1)) 
   {
   console.log("The larger of "+ num1+" and "+ num2+ " is "+ num2+ ".");
   }                  
