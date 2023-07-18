@@ -352,7 +352,7 @@ function shorterString(str1, str2, str3, str4, str5) {
 
   return shortest;
 }
-[1:33 AM]
+
 console.log(shorterString("air", "school", "car", "by", "github"));
 
 /*
@@ -687,18 +687,17 @@ function counter() {
 }
 
 function resetCounter() {
-  const previousCount = count; 
+
+  console.log(count, "and the counter reset now")
   count = 0; 
-  return {
-    previousCount: previousCount,
-    message: "The counter has been reset."
-  };
+  return ++count;
+
+
 }
 
 
 console.log(counter()); 
 console.log(counter());
 console.log(counter()); 
-
 console.log(resetCounter()); 
 console.log(counter());
